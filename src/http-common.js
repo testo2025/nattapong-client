@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:9999",
+  baseURL: "https://nattapong-api.onrender.com",
   headers: {
     "Content-type": "application/json"
   }
